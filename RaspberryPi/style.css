@@ -1,0 +1,127 @@
+table {
+    border-collapse: collapse;
+}
+
+table {
+    width: 92%;
+}
+
+td {
+    width: 20%;
+}
+
+th, td{
+    text-align: center;
+}
+
+body{
+    background: url("./back.png");
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+tr:nth-child(even) {
+    background-color: #61EDED;
+}
+
+body{
+    font-size: 1.2em;
+}
+
+form{
+    align : center;
+}
+
+button{
+    background-color: #f1f1f1;
+    background : none   ;
+    font-size : 1.1em;
+    border-radius: 4px;
+    border : none;
+    color: black;
+    border-right : 0.1em solid #f1f1f1;
+    border-left : 0.1em solid #f1f1f1;
+    border-top : 0.1em solid #f1f1f1;
+    border-bottom : 0.1em solid #f1f1f1;
+    border-top-left-radius : 0.5em;
+    border-top-right-radius : 0.5em;
+    border-bottom-right-radius : 0.5em;
+    border-bottom-left-radius : 0.5em;
+}
+
+.tri button:hover{
+    border-right : 0.1em solid dodgerblue;
+    border-left : 0.1em solid dodgerblue;
+    border-top : 0.1em solid dodgerblue;
+    border-bottom : 0.1em solid dodgerblue;
+    border-top-left-radius : 0.5em;
+    border-top-right-radius : 0.5em;
+    border-bottom-right-radius : 0.5em;
+    border-bottom-left-radius : 0.5em;
+}
+
+.save button:hover{
+    background:#F35252;
+}
+
+.realtime td{
+    font-size : 2em;
+    border-radius : 2px;
+    border-right : 0.07em dashed red;
+    border-left : 0.07em dashed red;
+    border-bottom : 0.07em dashed red;
+    border-top : 0.07em dashed red;
+}
+
+.save button {
+    margin: 0% 0% 0% 80%;
+    border: none;
+    font-size: 0.85em;
+    border-radius: 8px;
+    background: #d34836;
+    color: #fff;
+}
+
+.delete{
+    font-size : 1em;
+    margin: 0;
+    padding: 0;
+    line-height: 0%;
+    border: 0;
+    background: none;
+}
+
+.delete:hover{
+    border-top : 0.1em solid red;
+}
+
+.maxvalue button{
+    border:none;
+    font-size : 0.85em;
+    border-radius:8px;
+    background:#d34836;
+    color:#fff;
+    margin : 0% 0% 0% 0%;
+}
+
+.maxvalue button:hover{
+    background:#F35252;
+}
+
+.maxvalue select {
+    font-size: 0.85em;
+    line-height: 1;
+    border: bold;
+    border-radius: 4px;
+    background-color: #EFC8C8;
+}
+
+.maxvalue{
+    margin : 0% 78% 0% 0%;
+}
+
+.option{
+    margin-top:0.8em;
+    margin-bottom:-0.3em;
+}
+
